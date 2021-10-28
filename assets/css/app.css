@@ -7,6 +7,15 @@ html {
   margin: 0;
   font-family: "Roboto", sans-serif; }
 
+header {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  z-index: 1; }
+
+section {
+  padding: 40px; }
+
 .top-bar {
   height: 20px;
   background-color: #485580; }
@@ -38,31 +47,44 @@ nav .menu {
   left: 100px;
   color: #485580; }
 
+footer {
+  background-color: #252525;
+  height: 100px; }
+
 .cover-img {
   background-image: url(../imgs/cover.jpg);
-  height: 600px;
+  height: 700px;
   background-size: cover;
   background-repeat: no-repeat; }
 
 main {
-  width: 75%;
-  margin: 0 auto; }
-  main #feature-products h2 {
+  width: 100% !important; }
+  main h2 {
+    font-weight: 300;
     text-align: center;
-    padding: 20px 0 0 0; }
-  main #feature-products .products {
+    padding: 20px; }
+  main .products {
     display: flex;
-    justify-content: space-between; }
-    main #feature-products .products .product {
+    justify-content: space-between;
+    width: 75%;
+    margin: 0 auto; }
+    main .products .product {
       width: 300px; }
-      main #feature-products .products .product .descr {
-        position: relative;
-        bottom: 40px;
+      main .products .product .descr {
         font-size: large; }
-      main #feature-products .products .product .price {
-        position: relative;
-        bottom: 40px; }
-        main #feature-products .products .product .price span {
-          font-size: larger; }
+      main .products .product .price span {
+        font-size: 35px; }
+    main .products .btn {
+      background-color: #485580;
+      color: white;
+      padding: 15px;
+      width: 150px;
+      display: inline-block;
+      text-align: center;
+      text-decoration: none; }
+  main #feature-products h2 {
+    text-align: center; }
+  main #deals {
+    background-color: whitesmoke; }
 
 /*# sourceMappingURL=app.css.map */
