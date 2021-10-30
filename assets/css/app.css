@@ -14,7 +14,7 @@ header {
   z-index: 1; }
 
 section {
-  padding: 40px; }
+  padding: 50px 0; }
 
 .top-bar {
   height: 20px;
@@ -50,19 +50,26 @@ nav .menu {
 footer {
   background-color: #252525;
   height: 100px; }
+  footer p {
+    text-align: center;
+    color: whitesmoke;
+    margin: top;
+    /* margin-top: 37px; */
+    padding: 40px 0; }
 
 .cover-img {
   background-image: url(../imgs/cover.jpg);
   height: 700px;
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  width: 100%; }
 
 main {
   width: 100% !important; }
   main h2 {
     font-weight: 300;
     text-align: center;
-    padding: 20px; }
+    padding: 0 0 20px 0px; }
   main .products {
     display: flex;
     justify-content: space-between;
@@ -81,10 +88,27 @@ main {
       width: 150px;
       display: inline-block;
       text-align: center;
-      text-decoration: none; }
+      text-decoration: none;
+      transition: all 1s; }
+      main .products .btn:hover {
+        background-color: #3f4964; }
   main #feature-products h2 {
     text-align: center; }
-  main #deals {
+  main #smartphones {
     background-color: whitesmoke; }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  nav img {
+    padding: 30px 0 30px 90px; }
+
+  nav .menu {
+    display: none; }
+
+  .products {
+    flex-direction: column; }
+
+  main .products .product {
+    width: 300px;
+    margin-bottom: 45px; } }
 
 /*# sourceMappingURL=app.css.map */

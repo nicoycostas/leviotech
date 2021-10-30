@@ -1,0 +1,29 @@
+@media (min-width: 320px) and (max-width: 767px) {
+  nav img {
+    padding: 30px 0 30px 90px;
+  }
+  nav .menu {
+    display: none;
+  }
+
+  .products {
+    flex-direction: column;
+  }
+
+  main .products .product {
+    width: 300px;
+    margin-bottom: 45px;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}

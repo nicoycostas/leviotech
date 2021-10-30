@@ -16,7 +16,7 @@ header {
 }
 
 section {
-  padding: 40px;
+  padding: 50px 0;
 }
 
 .top-bar {
@@ -61,4 +61,11 @@ nav .menu {
 footer {
   background-color: rgb(37, 37, 37);
   height: 100px;
+  p {
+    text-align: center;
+    color: whitesmoke;
+    margin: top;
+    /* margin-top: 37px; */
+    padding: 40px 0;
+  }
 }

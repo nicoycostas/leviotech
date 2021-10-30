@@ -3,6 +3,7 @@
   height: 700px;
   background-size: cover;
   background-repeat: no-repeat;
+  width: 100%;
 }
 
 main {
@@ -10,8 +11,9 @@ main {
   h2 {
     font-weight: 300;
     text-align: center;
-    padding: 20px;
+    padding: 0 0 20px 0px;
   }
+
   .products {
     display: flex;
     justify-content: space-between;
@@ -22,8 +24,6 @@ main {
       width: 300px;
 
       .descr {
-        // position: relative;
-        // bottom: 40px;
         font-size: large;
       }
 
@@ -44,17 +44,23 @@ main {
       display: inline-block;
       text-align: center;
       text-decoration: none;
+      transition: all 1s;
+      &:hover {
+        background-color: rgb(63, 73, 100);
+      }
     }
   }
-
   #feature-products {
     h2 {
       text-align: center;
-      //   padding: 20px 0 0 0;
     }
   }
 
-  #deals {
+  #smartphones {
     background-color: rgb(245, 245, 245);
   }
 }
+
+// responsiveness
+// Small devices (landscape phones, 576px and up)
+// Small devices (landscape phones, 576px and up)
