@@ -13,6 +13,9 @@ header {
   background-color: white;
   width: 100%;
   z-index: 1;
+  box-shadow: 1px 8px 5px -1px rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 1px 8px 5px -1px rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 1px 8px 5px -1px rgba(0, 0, 0, 0.12);
 }
 
 section {
@@ -68,4 +71,15 @@ footer {
     /* margin-top: 37px; */
     padding: 40px 0;
   }
+}
+.product a img {
+  // width: 250px;
+  height: 250px;
+}
+.product {
+  margin-bottom: 60px;
+}
+.product .descr {
+  // background-color: springgreen;
+  height: 100px;
 }

@@ -19,6 +19,7 @@ main {
     justify-content: space-between;
     width: 75%;
     margin: 0 auto;
+    flex-wrap: wrap;
 
     .product {
       width: 300px;
@@ -56,8 +57,24 @@ main {
     }
   }
 
-  #smartphones {
+  #tablets {
     background-color: rgb(245, 245, 245);
+  }
+}
+
+.show_all {
+  text-align: center;
+  /* margin: 0 auto; */
+  text-decoration: none;
+  color: rgb(212, 53, 47);
+  /* background-color: cadetblue; */
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: large;
+
+  &:hover {
+    color: rgb(221, 51, 45);
   }
 }
 
