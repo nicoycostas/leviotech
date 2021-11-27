@@ -1,9 +1,49 @@
-@media (min-width: 320px) and (max-width: 767px) {
-  nav img {
-    padding: 30px 0 30px 90px;
+@media (min-width: 320px) and (max-width: 500px) {
+  nav {
+    display: block;
   }
+  nav img {
+    padding: 30px 0 30px 58px;
+    margin: 0 0 0 30px;
+  }
+
+  nav label {
+    display: block;
+    float: left;
+    font-size: 25px;
+    padding: 10px;
+    position: absolute;
+    width: 49px;
+    top: 55px;
+    left: 30px;
+    /* background-color: aquamarine; */
+  }
+
   nav .menu {
     display: none;
+    clear: both;
+    padding: 0;
+    position: relative;
+    bottom: 44px;
+    li {
+      padding: 10px;
+    }
+  }
+
+  // shop menu icon
+  .fa-cart-plus:before {
+    content: "\f217";
+    font-size: 25px;
+    position: absolute;
+    top: 65px;
+    left: 309px;
+    color: #485580;
+    /* float: right; */
+  }
+
+  // when toggle is checked
+  #toggle:checked + .menu {
+    display: block;
   }
 
   .products {
@@ -14,10 +54,44 @@
     width: 300px;
     margin-bottom: 45px;
   }
+
+  // cover img headers
+  .cover-img h1 {
+    position: relative;
+    top: 255px;
+    padding: 0;
+    margin: 0;
+    font-size: 58px;
+    text-align: center;
+    font-weight: 350;
+    color: white;
+  }
+
+  .cover-img h2 {
+    position: relative;
+    top: 298px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-weight: 320;
+    font-size: 35px;
+    color: white;
+  }
+
+  .product a img {
+    height: fit-content;
+  }
 }
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
+  main .products {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
 }
 
 // Large devices (desktops, 992px and up)
@@ -26,4 +100,7 @@
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
+}
+
+@media (min-width: 1440px) {
 }

@@ -4,6 +4,29 @@
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
+  // position: absolute;
+
+  h1 {
+    position: relative;
+    top: 320px;
+    padding: 0;
+    margin: 0;
+    font-size: 70px;
+    text-align: center;
+    font-weight: 350;
+    color: rgb(255, 255, 255);
+  }
+
+  h2 {
+    position: relative;
+    top: 350px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-weight: 320;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+  }
 }
 
 main {
@@ -66,7 +89,7 @@ main {
   text-align: center;
   /* margin: 0 auto; */
   text-decoration: none;
-  color: rgb(212, 53, 47);
+  color: rgb(224, 70, 70);
   /* background-color: cadetblue; */
   display: flex;
   justify-content: center;
@@ -74,10 +97,6 @@ main {
   font-size: large;
 
   &:hover {
-    color: rgb(221, 51, 45);
+    color: rgb(199, 58, 58);
   }
 }
-
-// responsiveness
-// Small devices (landscape phones, 576px and up)
-// Small devices (landscape phones, 576px and up)

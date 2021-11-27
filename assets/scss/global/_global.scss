@@ -6,6 +6,11 @@ html {
   padding: 0;
   margin: 0;
   font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+
+main {
+  min-height: 900px;
 }
 
 header {
@@ -32,6 +37,11 @@ nav {
   img {
     padding: 30px 0 30px 100px;
   }
+
+  #toggle,
+  label {
+    display: none;
+  }
 }
 
 nav .menu {
@@ -50,6 +60,10 @@ nav .menu {
     text-align: center;
     margin: 30px;
     color: rgb(72, 85, 128);
+
+    &:hover {
+      color: rgb(53, 63, 95);
+    }
   }
 }
 .fa-cart-plus:before {
@@ -77,7 +91,7 @@ footer {
   height: 250px;
 }
 .product {
-  margin-bottom: 60px;
+  margin-bottom: 80px;
 }
 .product .descr {
   // background-color: springgreen;
