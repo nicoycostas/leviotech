@@ -8,6 +8,17 @@ html {
   font-family: "Roboto", sans-serif;
   overflow-x: hidden;
 }
+.product a img {
+  // width: 250px;
+  height: 250px;
+}
+.product {
+  margin-bottom: 80px;
+}
+.product .descr {
+  // background-color: springgreen;
+  height: 100px;
+}
 
 main {
   min-height: 900px;
@@ -77,23 +88,23 @@ nav .menu {
 
 footer {
   background-color: rgb(37, 37, 37);
-  height: 100px;
+  height: 150px;
+
+  .footnote{
+    padding: 40px 0;
+  }
   p {
     text-align: center;
     color: whitesmoke;
-    margin: top;
-    /* margin-top: 37px; */
-    padding: 40px 0;
+    
   }
-}
-.product a img {
-  // width: 250px;
-  height: 250px;
-}
-.product {
-  margin-bottom: 80px;
-}
-.product .descr {
-  // background-color: springgreen;
-  height: 100px;
+
+  .certified{
+    line-height: 4px;
+    font-size: small;
+    color: orange;
+    text-decoration: none;
+    text-align: center;
+    display: inherit;
+  }
 }

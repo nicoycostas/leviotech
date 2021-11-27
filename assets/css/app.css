@@ -8,6 +8,15 @@ html {
   font-family: "Roboto", sans-serif;
   overflow-x: hidden; }
 
+.product a img {
+  height: 250px; }
+
+.product {
+  margin-bottom: 80px; }
+
+.product .descr {
+  height: 100px; }
+
 main {
   min-height: 900px; }
 
@@ -61,22 +70,19 @@ nav .menu {
 
 footer {
   background-color: #252525;
-  height: 100px; }
+  height: 150px; }
+  footer .footnote {
+    padding: 40px 0; }
   footer p {
     text-align: center;
-    color: whitesmoke;
-    margin: top;
-    /* margin-top: 37px; */
-    padding: 40px 0; }
-
-.product a img {
-  height: 250px; }
-
-.product {
-  margin-bottom: 80px; }
-
-.product .descr {
-  height: 100px; }
+    color: whitesmoke; }
+  footer .certified {
+    line-height: 4px;
+    font-size: small;
+    color: orange;
+    text-decoration: none;
+    text-align: center;
+    display: inherit; }
 
 .cover-img {
   background-image: url(../imgs/cover.jpg);
@@ -112,7 +118,7 @@ main {
   main .products {
     display: flex;
     justify-content: space-between;
-    width: 75%;
+    width: 90%;
     margin: 0 auto;
     flex-wrap: wrap; }
     main .products .product {
@@ -200,7 +206,7 @@ main {
 
   main .products .product {
     width: 300px;
-    margin-bottom: 45px; }
+    margin: 45px auto; }
 
   .cover-img h1 {
     position: relative;
