@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 500px) {
+@media (min-width: 320px) and (max-width: 768px) {
   nav {
     display: block;
   }
@@ -85,9 +85,22 @@
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991px) {
- 
+  nav {
+    display: flex;
+    justify-content: start;
+  }
   nav img {
     padding: 30px 0 30px 20px;
+    width: 170px;
+  }
+
+  .fa-cart-plus:before {
+    content: "\f217";
+    font-size: 25px;
+    position: relative;
+    top: 47px;
+    left: 75px;
+    color: #485580;
   }
   main .products {
     display: flex;
@@ -98,13 +111,40 @@
   }
 }
 
+
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
 }
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
+@media (min-width:1024px) and (max-width:1200px){
+  nav img {
+    padding: 30px 0 30px 55px;
+}
+  .fa-cart-plus:before {
+    content: "\f217";
+    font-size: 25px;
+    position: relative;
+    top: 47px;
+    left: 29px;
+    color: #485580;
+  }
+
+  main .products {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
 }
 
-@media (min-width: 1440px) {
+
+@media (min-width: 1920px) {
+  main .products {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
 }
