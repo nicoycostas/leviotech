@@ -235,8 +235,7 @@ main {
     display: block; }
 
   nav img {
-    padding: 30px 0 30px 17%;
-    margin: 0 0 0 89px; }
+    padding: 30px 0 30px 30%; }
 
   nav label {
     display: block;
