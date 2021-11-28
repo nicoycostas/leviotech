@@ -161,7 +161,7 @@ main {
 #smartphone-products {
   padding-top: 200px; }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 481px) {
   nav {
     display: block; }
 
@@ -230,6 +230,45 @@ main {
 
   .product a img {
     height: fit-content; } }
+@media (min-width: 481px) and (max-width: 768px) {
+  nav {
+    display: block; }
+
+  nav img {
+    padding: 30px 0 30px 17%;
+    margin: 0 0 0 89px; }
+
+  nav label {
+    display: block;
+    float: left;
+    font-size: 25px;
+    padding: 10px;
+    position: absolute;
+    width: 49px;
+    top: 55px;
+    left: 30px;
+    /* background-color: aquamarine; */ }
+
+  nav .menu {
+    display: none;
+    clear: both;
+    padding: 0;
+    position: relative;
+    bottom: 44px; }
+    nav .menu li {
+      padding: 10px; }
+
+  .fa-cart-plus:before {
+    content: "\f217";
+    font-size: 25px;
+    position: absolute;
+    top: 65px;
+    left: 80%;
+    color: #485580;
+    /* float: right; */ }
+
+  #toggle:checked + .menu {
+    display: block; } }
 @media (min-width: 768px) and (max-width: 991px) {
   nav {
     display: flex;
