@@ -235,7 +235,7 @@ main {
     display: block; }
 
   nav img {
-    padding: 30px 0 30px 30%;
+    padding: 30px 0 30px 25%;
     /* margin: 0 0 0 89px; */ }
 
   nav label {
@@ -268,7 +268,11 @@ main {
     /* float: right; */ }
 
   #toggle:checked + .menu {
-    display: block; } }
+    display: block; }
+
+  main .products .product {
+    width: 300px;
+    margin: 45px auto; } }
 @media (min-width: 1024px) and (max-width: 1200px) {
   nav img {
     padding: 30px 0 30px 55px; }
