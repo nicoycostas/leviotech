@@ -76,7 +76,7 @@
                     <a class="btn" href="https://amzn.to/3cPaY7o">View More</a>
                 </article>
             </div>
-            <a class="show_all" href="/laptops.html">View All</a>
+            <a class="show_all" href="https://nicoycostas.github.io/leviotech/laptops.html">View All</a>
             <!-- <a class="view-more" href="">View All</a> -->
         </section>
 
@@ -111,7 +111,7 @@
                     <a class="btn" href="https://amzn.to/2ZGTPtD">View More</a>
                 </div>
             </div>
-            <a class="show_all" href="/tablets.html">View All</a>
+            <a class="show_all" href="https://nicoycostas.github.io/leviotech/tablets.html">View All</a>
         </section>
 
         <section id="smartphones">
@@ -147,18 +147,22 @@
 
                 
             </div>
-            <a class="show_all" href="/smartphones.html">View All</a>
+            <a class="show_all" href="https://nicoycostas.github.io/leviotech/smartphones.html">View All</a>
         </section>
 
     </main>
 
     <footer>
         <div class="footnote">
-            <p>All rights Reserved &copy; Leviotech 2021</p>
+            <p>Copyright &copy; <span id="date"></span> Costas Nicou</p>
             <a class="certified" href="https://amzn.to/32F3C4z">Certified Amazon Affiliate</a>
         </div>
     
     </footer>
     
+    <script>
+        const d = new Date();
+        document.getElementById("date").innerHTML = d.getFullYear();
+    </script>
 </body>
 </html>

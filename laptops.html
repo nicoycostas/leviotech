@@ -98,10 +98,16 @@
 
     <footer>
         <div class="footnote">
-            <p>All rights Reserved &copy; Leviotech 2021</p>
+            <p>Copyright &copy; <span id="date"></span> Costas Nicou</p>
             <a class="certified" href="https://amzn.to/32F3C4z">Certified Amazon Affiliate</a>
         </div>
+    
     </footer>
+    
+    <script>
+        const d = new Date();
+        document.getElementById("date").innerHTML = d.getFullYear();
+    </script>
     
 </body>
 </html>
